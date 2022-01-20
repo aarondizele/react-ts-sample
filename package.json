@@ -1,0 +1,36 @@
+{
+  "name": "access-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.44.0",
+    "@fluentui/react-file-type-icons": "^8.5.6",
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.24.0",
+    "chart.js": "^3.6.0",
+    "history": "^5.1.0",
+    "i18n-iso-countries": "^7.0.0",
+    "localbase": "^0.7.5",
+    "millify": "^4.0.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  }
+}
